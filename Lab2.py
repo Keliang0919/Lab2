@@ -29,7 +29,7 @@ def sort_temperature(temperature):
     return sorted_temperature
 
 
-def calc_median_temperature(numlist):
+#def calc_median_temperature(numlist):
     print("Median temperature: " + str(statistics.median(numlist)))
 
 
@@ -41,7 +41,7 @@ def main():
     print("Minimum temperature:", min_max[0])
     print("Maximum temperature:", min_max[1])
     print("Sorted temperature:", sort_temperature(temperature))
-    calc_median_temperature(temperature)
+    #calc_median_temperature(temperature)
 
 
 if __name__ == "__main__":
