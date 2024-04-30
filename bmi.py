@@ -1,6 +1,6 @@
 def calculate_bmi (height, weight):
     print("Height = " + str(height))
-    print("Weigh = " + str(weight))
+    print("Weight = " + str(weight))
     BMI = weight/(height*height)
     print("BMI is " + str(BMI))
     if BMI < 18.5:
